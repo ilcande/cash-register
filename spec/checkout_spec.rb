@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require_relative '../lib/checkout'
 
-describe Checkout do
-  describe "#scan" do
+describe Checkout do # rubocop:disable Metrics/BlockLength
+  describe '#scan' do
     let(:checkout) { Checkout.new('./spec/fixtures/datastore.json') }
-    let(:keyring) {[{ 'name' => 'Keyring', 'price' => 3.11 }]}
+    let(:keyring) { [{ 'name' => 'Keyring', 'price' => 3.11 }] }
 
     context 'empty code' do
       it { expect(checkout.scan('')).to be_nil }
@@ -18,7 +20,7 @@ describe Checkout do
     end
   end
 
-  describe '#total' do
+  describe '#total' do # rubocop:disable Metrics/BlockLength
     let(:checkout) { Checkout.new('./spec/fixtures/datastore.json') }
 
     context 'of %w(KR1 KR1)' do

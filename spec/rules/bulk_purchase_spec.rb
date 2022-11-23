@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../../lib/rules/bulk_purchase'
 
 describe BulkPurchase do

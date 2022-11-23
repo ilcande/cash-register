@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 require_relative './buy_x_get_y_free'
 require_relative './bulk_purchase'
 require_relative './drop_original_price'
 
+# class DiscountGenerator
 class DiscountGenerator
   def self.generate_promo_for(type, *args)
     case type

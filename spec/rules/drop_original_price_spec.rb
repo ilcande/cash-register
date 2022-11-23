@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require_relative '../../lib/rules/drop_original_price'
 
 describe DropOriginalPrice do
   describe '#apply_rule_to' do
     let(:min_items_per_promo) { 3 }
-    let(:value) { 0.66666666666    }
+    let(:value) { 0.66666666666 }
     let(:rule) { DropOriginalPrice.new(min_items_per_promo, value) }
     let(:list) { [] }
     let(:price) { 11.23 }

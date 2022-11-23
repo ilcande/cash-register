@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require_relative '../../lib/rules/min_items_per_promo'
 
 describe MinItemsPerPromo do
-  describe "#apply" do
+  describe '#apply' do
     let(:min_items_per_promo) { 2 }
     let(:value) { 1 }
     let(:rule) { MinItemsPerPromo.new(min_items_per_promo, value) }

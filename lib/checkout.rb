@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'json'
-require 'pry'
 require_relative './rules/discount_generator'
 
+# class Checkout
 class Checkout
   def initialize(datastore = 'config/datastore.json')
     @datastore = datastore
