@@ -7,4 +7,6 @@ class MinItemsPerPromo
   def applies_to(items)
     items.size >= @min_items_per_promo
   end
+
+  attr_reader :value
 end

@@ -36,7 +36,7 @@
       "DropOriginalPrice":
       {
         "min_items_per_promo": 3,
-        "value": 10.0
+        "value": 0.66666666667
       }
     }
   }
