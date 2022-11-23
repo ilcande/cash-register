@@ -1,0 +1,43 @@
+{
+  "products":
+  {
+    "KR1":
+    {
+      "name":"Keyring",
+      "price": 3.0
+    },
+    "MG1":
+    {
+      "name":"Mug",
+      "price": 10.0
+    },
+    "PT1":{
+      "name":"Poster",
+      "price": 15.0 
+    }
+  },
+  "discounts":
+  {
+    "KR1":
+    {
+      "BuyXGetYFree":{
+        "min_items_per_promo": 2,
+        "value": 1
+      }
+    },
+    "MG1":{
+      "BulkPurchase":
+      {
+        "min_items_per_promo": 3,
+        "value": 7.5
+      }
+    },
+    "PT1":{
+      "DropOriginalPrice":
+      {
+        "min_items_per_promo": 3,
+        "value": 10.0
+      }
+    }
+  }
+}
