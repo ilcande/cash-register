@@ -1,0 +1,47 @@
+{
+  "products":
+  {
+    "GR1":
+    {
+      "name":"Green Tea",
+      "price": 3.11
+    },
+    "SR1":
+    {
+      "name":"Strawberries",
+      "price": 5.00
+    },
+    "CF1":
+    {
+      "name":"Coffee",
+      "price": 11.23
+    }
+  },
+  "discounts":
+  {
+    "GR1":
+    {
+      "BuyXGetYFree":
+      {
+        "min_items_per_promo": 2,
+        "value" :1
+      }
+    },
+    "SR1":
+    {
+      "BulkPurchase":
+      {
+        "min_items_per_promo": 3,
+        "value": 4.50
+      }
+    },
+    "CF1":
+    {
+      "DropOriginalPrice":
+      {
+        "min_items_per_promo": 3,
+        "value": 7.48666666667
+      }
+    }
+  }
+}
