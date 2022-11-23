@@ -3,11 +3,11 @@ require_relative '../../lib/rules/drop_original_price'
 describe DropOriginalPrice do
   describe '#apply_rule_to' do
     let(:min_items_per_promo) { 3 }
-    let(:value) { 0.66666666667 }
+    let(:value) { 0.66666666666    }
     let(:rule) { DropOriginalPrice.new(min_items_per_promo, value) }
     let(:list) { [] }
-    let(:price) { 15.0 }
-    let(:new_price) { (price * value).round(2) }
+    let(:price) { 11.23 }
+    let(:new_price) { price * value }
 
     before(:each) do
       num_items.times do

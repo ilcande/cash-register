@@ -6,7 +6,7 @@ describe BuyXGetYFree do
     let(:value) { 1 }
     let(:rule) { BuyXGetYFree.new(min_items_per_promo, value) }
     let(:list) { [] }
-    let(:price) { 3.0 }
+    let(:price) { 3.11 }
 
     before(:each) do
       num_items.times do

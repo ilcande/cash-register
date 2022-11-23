@@ -4,16 +4,16 @@
     "KR1":
     {
       "name":"Keyring",
-      "price": 3.0
+      "price": 3.11
     },
     "MG1":
     {
       "name":"Mug",
-      "price": 10.0
+      "price": 5.0
     },
     "PT1":{
       "name":"Poster",
-      "price": 15.0 
+      "price": 11.23
     }
   },
   "discounts":
@@ -29,14 +29,14 @@
       "BulkPurchase":
       {
         "min_items_per_promo": 3,
-        "value": 7.5
+        "value": 4.5
       }
     },
     "PT1":{
       "DropOriginalPrice":
       {
         "min_items_per_promo": 3,
-        "value": 0.66666666667
+        "value": 0.66666666666
       }
     }
   }

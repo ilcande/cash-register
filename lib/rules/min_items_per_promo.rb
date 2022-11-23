@@ -8,5 +8,5 @@ class MinItemsPerPromo
     items.size >= @min_items_per_promo
   end
 
-  attr_reader :value
+  attr_reader :min_items_per_promo, :value
 end

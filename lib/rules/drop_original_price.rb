@@ -5,6 +5,5 @@ class DropOriginalPrice < MinItemsPerPromo
     return items.first['price'] unless applies_to(items)
 
     new_price = items.first['price'] * @value
-    new_price.round(2)
   end
 end
